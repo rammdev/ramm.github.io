@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="theme-color" content="#3F51B5">
+
+    <title>RAMM OS</title>
+    <meta name="description" content="Above the clouds, on a mission to provide the development tools of tomorrow with a powerful production team.">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@1.1.0/dist/material-components-web.min.css">
+
+    <style>
+        :root {
+            --mdc-theme-primary: #3f51b5;
+            --mdc-theme-secondary: #f44336;
+            --mdc-theme-on-primary: #ffffff;
+            --mdc-theme-on-secondary: #ffffff;
+        }
+
+        :root body {
+            background-color: #fafafa;
+        }
+
+        :root body .ribbon {
+            top: 0;
+            z-index: -1;
+            background-color: #3f51b5;
+            width: 100%;
+            height: 10rem;
+            position: absolute;
+        }
+
+        :root body .main-content {
+            background-color: #ffffff;
+            border-radius: 4px;
+            margin: 20px;
+            padding: 20px;
+            min-height: calc(100vh - 80px);
+        }
+
+        :root body .main-content .image-1 {
+            width: 100%;
+        }
+
+        :root body .main-content .mdc-button .material-icons {
+            font-size: 12px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+</head>
+
+<body>
+
+    <div class="ribbon mdc-elevation--z4"></div>
+    <main class="main-content mdc-typography mdc-elevation--z8">
+        <h1 class="mdc-typography--headline2">RAMM OS</h1>
+        <p class="mdc-typography--body1">Above the clouds, on a mission to provide the development tools of tomorrow with a powerful production team.</p>
+        <a class="mdc-button" href="https://docs.google.com/document/d/1QWsXyDOT_YHIULhXhFthco5ulhOH41JmeUxNplBvZNg/edit?usp=sharing" target="_blank" rel="noreferrer" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__label">
+                <i class="material-icons">open_in_new</i> Spec</span>
+        </a>
+        <a class="mdc-button" href="https://docs.google.com/presentation/d/1-QhZoUffDXTPct-UgSImViIhxg0rPvUA1_2FtxybbSY/edit?usp=sharing" target="_blank" rel="noreferrer" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__label"><i class="material-icons">open_in_new</i> Advertorials</span>
+        </a>
+        <a class="mdc-button" href="https://github.com/rammdev" target="_blank" rel="noreferrer" data-mdc-auto-init="MDCRipple">
+            <span class="mdc-button__label"><i class="material-icons">open_in_new</i> GitHub</span>
+        </a>
+        <img class="image-1"
+            src="https://lh3.googleusercontent.com/8Ag85Z4cKof3HGQnbOlq26OcCZMSawpL2OUJuggxRfRA52jYY-7K22YS2j7RpkFxPDLcWBqCcCwo1BAok-zgL7r_zgq3nFOD8Ojo_QMfe6321cp6mSUetO_y7o9VUb3hTloL7bJOrGyN94LNmLk6POdhpRJvuyuUZUj3GroTCI9dqHUMJlgXCoPpyQTjNMEW_wyQ1sP_noLZE1zEeMQHrYar0q7u-TIUW9lsDQD5HnekWH_edkdrkjB_ljj7_iaw1F206gUVUbFgq4hFg87yWKAk5JgYNfkFvsS_APcjJzq1dqy2zg8KM_BLNBvRO2HwjXUONS9-t-QJpdy4K6tf2kLNSmG__vga0iFKf08MdbQab_KpQOCABJavVab3koBjg_SUddRZKDIG0hQ5e0FAPqomU0fsKFS0ptmGXfPXf7znlBdu09XOjJwGp38SuRVtNmpUuJMG6QSMb5xTJ0MBVCNWqBi18c7ygZ1MBV21C03aMie0BIuQE4idvvpn8QIQcSJTqvyXQTutEixGr944yBYFLBz9CbnJMIlrJeFUD1yOpbejmEmcaU6q_tBtjWNdkzWyw9pgVuh2JGtl94etT68usQrw4vbjPgEj1co=w1920-h947"
+            alt="Use RAMM OS to stay in control.">
+    </main>
+
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <script src="https://unpkg.com/material-components-web@1.1.0/dist/material-components-web.min.js"></script>
+
+    <script>
+        mdc.autoInit();
+    </script>
+
+</body>
+
+</html>
